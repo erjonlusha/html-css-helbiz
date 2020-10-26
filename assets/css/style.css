@@ -1,0 +1,15 @@
+body{font-family: 'Open Sans', sans-serif;}
+ul>li{
+  list-style: none;
+  display: inline;
+}
+li a{text-decoration: none;}
+
+.hero_img{
+  background-image: url('../img/heroimage.jpg');
+  background-repeat: repeat-x;
+  background-size: contain;
+  height: 50vh;
+}
+
+.store{width: 160px;}
