@@ -1,15 +1,80 @@
-body{font-family: 'Open Sans', sans-serif;}
+body{
+  font-family: 'Open Sans', sans-serif;
+text-align: center;}
 ul>li{
   list-style: none;
   display: inline;
 }
-li a{text-decoration: none;}
+li a, a{text-decoration: none;}
 
 .hero_img{
   background-image: url('../img/heroimage.jpg');
-  background-repeat: repeat-x;
-  background-size: contain;
-  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+.hero_text{
+  color: white;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
+.layover{
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.path{width: 12rem;}
 .store{width: 160px;}
+.cr_gray{background-color: #fafafa;}
+.show_item{width: 340px;}
+
+.hero_img_middle{
+    background-image: url('../img/download.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.pos_rel{position: relative;}
+.pos_absolute {position: absolute;}
+
+    /* width: 100%;
+    padding: 200px 100px 24px 24px;
+    top: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: red;
+}
+.cnt_txt{
+  position:absolute;
+  bottom: 0px;
+} */
+.iphone-frame{width: 256px;}
+
+.smart_mobility{
+  background-image: url('../img/scooter.f0a0397.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  color: white;
+}
+.img_two{
+  /* background-image: url('');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  height: 1000px;
+position: absolute;
+bottom: 0;
+}
+.img_tre{
+  background-image: url('../img/city.7c8c928.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  color: white;
+}
